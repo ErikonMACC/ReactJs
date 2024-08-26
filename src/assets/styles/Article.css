@@ -1,0 +1,17 @@
+.row-article {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.box-text {
+    width: 90%;
+    padding: 0px 0px 20px 0px;
+}
+
+.space-end {
+    margin-bottom: 2.5em;
+}

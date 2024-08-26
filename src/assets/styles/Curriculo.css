@@ -1,0 +1,14 @@
+.box {
+    background-color: rgb(0, 2, 29);
+    min-height: 80vh;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 80vw;
+    margin: 5em 0;
+}
+
+.article {
+    max-width: 90%;
+    min-height: 50vh;
+    margin-left: 5%;
+}

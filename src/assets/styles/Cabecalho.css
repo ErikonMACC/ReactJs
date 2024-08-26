@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.row .profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    outline: 5px solid rgb(168, 168, 168);
+}
+
+.row .left-col {
+    width: 20%;
+}
+
+.row .right-col {
+    text-align: start;
+    width: 60%;
+    margin-left: 1.5em;
+}
+

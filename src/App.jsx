@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import { Curriculo } from './components/Curriculo';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <h1>teste</h1>
-      </div>
-    </>
+    <div className="App">
+        <header className="App-header">
+          <Curriculo />
+        </header>
+    </div>
   )
 }
 
